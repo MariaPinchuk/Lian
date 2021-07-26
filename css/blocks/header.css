@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    flex-basis: 48%;
+}
+
+.header__nav {
+    flex-basis: 47%;
+    color: #777777;
+    padding: 43px 15px 38px 0;
+}
+
+.header__nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #777777;
+    font-weight: bold;
+}
+
+.header__link:hover {
+    color: black;
+}
+
+.header__nav i:hover {
+color: black;
+}
+

@@ -1,0 +1,66 @@
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.team__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 262px 70px 262px;
+}
+
+.team__description {
+    font-size: 13px;
+    line-height: 25px;
+    color: #777;
+    text-align: center;
+}
+
+.team__title {
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+    font-weight: 300;
+    padding-bottom: 45px;
+    letter-spacing: 12px;
+}
+
+.teammates {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.teammates__side {
+    flex-basis: 358px;
+}
+
+.teammates__text {
+    background-color: white;
+}
+
+.teammates__name {
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 35px 0 13px 35px;
+}
+
+.teammates__position {
+    font-size: 16px;
+    line-height: 10px;
+    color: #777;
+    font-weight: bold;
+    padding: 0 0 25px 35px;
+}
+
+.teammates__description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #9c9c9c;
+    padding: 0 0 30px 35px;
+}

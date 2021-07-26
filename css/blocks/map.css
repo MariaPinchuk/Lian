@@ -1,0 +1,59 @@
+.map {
+    background-image: url("../../img/map.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 170px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.map__pin {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 25%;
+    left: 45%;
+    padding: 20px 35px;
+}
+
+.map__pin::after {
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;
+    border-top: 35px solid white;
+    left: 43%;
+    bottom: -50px;
+}
+
+.map__place-name {
+    font-size: 14px;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.map__text {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+}
+
+.map__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    transform: rotate(45deg);
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.map__button:hover {
+    opacity: 1;
+}
+

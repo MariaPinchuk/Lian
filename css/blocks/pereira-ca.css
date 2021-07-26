@@ -1,0 +1,190 @@
+.pereira-ca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pereira {
+    flex-basis: 48%;
+}
+
+.gallery {
+    flex-basis: 48%
+}
+
+.pereira__branding-design {
+    font-size: 14px;
+    line-height: 24px;
+    color: #555;
+    font-weight: bold;
+    padding: 10px 0 25px 0;
+}
+
+.pereira__title {
+    font-size: 30px;
+    line-height: 36px;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.pereira__description {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 30px 0 60px 0;
+}
+
+.pereira__date-likes {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    display: flex;
+    width: 267px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.pereira__heart {
+    text-decoration: none;
+    color: #555;
+    padding-right: 8px;
+}
+
+.pereira__heart:hover {
+   color: black;
+}
+
+.pereira__text {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+    padding-right: 20px;
+}
+
+.pereira__role-tags_size_m {
+    font-size: 16px;
+    line-height: 36px;
+    color: black;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.pereira__role-tags_size_s {
+    font-size: 16px;
+    line-height: 36px;
+    color: #999;
+}
+
+.pereira__social {
+    display: flex;
+    margin: 55px 0 144px 0;
+}
+
+.pereira__share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #707070;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.pereira__share:focus {
+    outline: none;
+}
+
+.pereira__share p {
+    padding-left: 8px;
+}
+
+.pereira__icons {
+    display: flex;
+    background-color: #e1e1e1;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+
+.pereira__link {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    background-image: url("../../img/icons.png");
+    background-repeat: no-repeat;
+}
+
+.pereira__link_facebook {
+    background-position: -10% 50%;
+    position: relative;
+}
+
+.pereira__link_facebook::after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    bottom: 13px;
+    border: 8px solid transparent;
+    border-right: 7px solid #e1e1e1;
+}
+
+.pereira__link_google {
+    background-position: 10% 50%;
+}
+
+.pereira__link_twitter {
+    background-position: 30% 50%;
+}
+
+.pereira__link_linkedin {
+    background-position: 50% 50%;
+}
+
+.pereira__link_dribbble {
+    background-position: 69% 50%;
+}
+
+.pereira__link_pinterest {
+    background-position: 88% 50%;
+}
+
+.pereira__link_instagram {
+    background-position: 107% 50%;
+}
+
+.gallery__thumbs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pereira__thumb1 {
+    background-image: url("../../img/thumb1.png");
+    height: 115px;
+    width: 131px;
+}
+
+.pereira__thumb:hover .portfolio__overlay {
+    display: block;
+}
+
+.pereira__thumb2 {
+    background-image: url("../../img/thumb2.png");
+    height: 115px;
+    width: 131px;
+}
+
+.pereira__thumb3 {
+    background-image: url("../../img/thumb3.png");
+    height: 115px;
+    width: 131px;
+}
+
+.pereira__thumb4 {
+    background-image: url("../../img/thumb4.png");
+    height: 115px;
+    width: 131px;
+}

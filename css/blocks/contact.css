@@ -1,0 +1,64 @@
+.contact {
+    display: flex;
+
+}
+
+.contact__info {
+    flex-basis: 37%;
+}
+
+.contact__form {
+    flex-basis: calc(100% - 37% - 65px);
+    padding: 0;
+}
+
+.contact-form__input {
+    flex-basis: 44%;
+}
+
+.contact-form__textarea {
+    height: 150px;
+    margin: 30px 0;
+}
+
+.contact-info__text {
+    font-size: 15px;
+    color: #3c3d3c;
+    padding-bottom: 20px;
+}
+
+.contact-info__details {
+    font-size: 15px;
+    line-height: 24px;
+    color: #777;
+    padding-bottom: 33px;
+}
+
+.contact-info___details_strong {
+    color: black;
+}
+
+.contact-info__details_bold {
+    color: #555;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.contact-info__title {
+    padding-bottom: 18px;
+}
+
+.contact-info__border {
+    width: 60px;
+    height: 10px;
+    background-color: transparent;
+    border-top: 1px solid black;
+    margin-bottom: 33px;
+}
+
+.contact__send-message {
+    margin-top:  5px;
+    justify-content: flex-start;
+    margin-bottom: 80px;
+}
+

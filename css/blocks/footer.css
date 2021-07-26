@@ -1,0 +1,63 @@
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    padding: 65px 0 45px 0;
+}
+
+.footer__contacts {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    display: block;
+    background-image: url("../../img/contacts.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.footer__link_facebook {
+    background-position: -7% 50%;
+}
+
+.footer__link_google {
+     background-position: 11% 50%;
+ }
+
+.footer__link_twitter {
+    background-position: 30% 50%;
+}
+
+.footer__link_linkedin {
+    background-position: 50% 50%;
+}
+
+.footer__link_dribbble {
+    background-position: 69% 50%;
+}
+
+.footer__link_pinterest {
+    background-position: 88% 50%;
+}
+
+.footer__link_instagram {
+    background-position: 106% 50%;
+}
+
+.footer__signature {
+    display: flex;
+    justify-content: center;
+    padding: 37px 0 46px 0;
+}
+
+.footer__text {
+    font-size: 13px;
+    color: #9c9c9c;
+}
+
+.footer__text strong {
+    color: black;
+}

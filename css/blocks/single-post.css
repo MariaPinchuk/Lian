@@ -1,0 +1,136 @@
+.single-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-post__title {
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 6px;
+}
+
+.single-post__info {
+    font-size: 10px;
+    color: #777;
+    font-weight: bold;
+    display: flex;
+    padding: 0 165px;
+    padding: 25px 0;
+}
+
+.single-post__info p {
+    padding: 0 32px;
+}
+
+.single-post__heart {
+    padding-right: 10px;
+}
+
+.single-post__paragraph {
+    font-size: 13px;
+    line-height: 30px;
+    color: #777;
+    padding: 50px 165px 0 165px;
+}
+
+.single-post__block-quote {
+    border: 1px solid #e1e1e1;
+    padding: 25px 30px 30px 40px;
+    margin: 30px 100px 40px;
+    position: relative;
+
+}
+
+.single-post__border {
+    position: absolute;
+    width: 4px;
+    background-color: black;
+    height: 100%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+}
+
+.single-post__quote {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #777;
+    font-style: italic;
+}
+
+.single-post__heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-left: 165px;
+}
+
+.single-post__paragraph_less_padding {
+    padding-top: 30px;
+}
+
+.message-form {
+    padding: 0 200px;
+}
+
+.message-form__title {
+    font-size: 20px;
+    line-height: 60px;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 6px;
+    text-align: center;
+    padding: 68px 0 30px 0;
+}
+
+.message-form__form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.single-post__border_lighter {
+    width: 3px;
+    opacity: 0.1;
+}
+
+.message-form__input {
+    flex-basis: 28%;
+    height: 38px;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    background-color: transparent;
+    border: 1px solid #e1e1e1;
+    padding-left: 20px;
+}
+
+.message-form__input:focus {
+    outline: none;
+}
+
+.message-form__textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 110px;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    background-color: transparent;
+    border: 1px solid #e1e1e1;
+    padding: 6px 20px;
+    resize: none;
+    margin: 25px 0;
+}
+
+.message-form__textarea:focus {
+    outline: none;
+}
+
+.single-post__send-message {
+    margin-bottom: 86px;
+}

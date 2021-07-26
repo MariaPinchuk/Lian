@@ -1,0 +1,38 @@
+.related-works__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.relared-works__title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 7px;
+}
+
+.related-works__description {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+    max-width: 44%;
+    text-align: center;
+    padding: 35px 0 50px 0;
+}
+
+.related-works__images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.related-works__button {
+    border: none;
+    cursor:pointer;
+    height: 248px;
+}
+
+.related-works__button:focus {
+    outline: none;
+}

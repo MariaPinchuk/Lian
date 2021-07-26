@@ -1,0 +1,38 @@
+.values {
+    display: flex;
+    flex-direction: column;
+}
+
+.values__title {
+    text-align: center;
+    padding-bottom: 45px;
+
+}
+
+.values__text {
+    text-align: center;
+    line-height: 30px;
+    padding: 0 265px 33px;
+}
+
+.values__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.values-column {
+    flex-basis: 354px;
+}
+
+.values-column__title {
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 28px;
+}
+
+.values-column__text {
+    text-align: start;
+    padding: 40px 0 65px;
+}

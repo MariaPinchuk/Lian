@@ -1,0 +1,23 @@
+.welcome__about {
+    background-image: url("../../img/about.jpg");
+    padding: 103px 0;
+}
+
+.welcome__text {
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.welcome__text p {
+    padding-top: 44px;
+}
+
+.welcome__portfolio {
+    background-image: url("../../img/base.jpg");
+    padding: 71px 0;
+}
+
+.welcome__blog {
+    background-image: url("../../img/blog.jpg");
+    padding: 103px 0;
+}
